@@ -9,10 +9,10 @@ let package = Package(
     .library(name: "FlowKitCModules", targets: ["CModules"]),
   ],
   targets: [
-    .binaryTarget(
+    .target(
       name: "FlowKit",
-      url: "https://github.com/mahainc/flow-kit/releases/download/1.2.6/FlowKit.xcframework.zip",
-      checksum: "7de40b7b55cab1367277655eb37a434914e6a65b29e11238ccee088433b9ffba"
+      url: "https://github.com/mahainc/flow-kit/releases/download/1.0.0-26.1/FlowKit.xcframework.zip",
+      checksum: "7732595d3b51ce45ebd723d96f8d6e2e57a70be49cc09baaf9459f01096f6a2e"
     ),
     .target(
       name: "CModules",
