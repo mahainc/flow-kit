@@ -5,19 +5,14 @@ let package = Package(
   name: "FlowKit",
   platforms: [.macOS(.v14), .iOS(.v15)],
   products: [
-    .library(name: "FlowKit", targets: ["FlowKit", "asyncify_wasmFFI"]),
+    .library(name: "FlowKit", targets: ["FlowKit"]),
     .library(name: "FlowKitCModules", targets: ["CModules"]),
   ],
   targets: [
     .binaryTarget(
       name: "FlowKit",
-      url: "https://github.com/mahainc/flow-kit/releases/download/1.2.44-26.1.1-ffi/FlowKit.xcframework.zip",
-      checksum: "ca1a0411f8be0daaacb297244de569ed15ffdae88f8e3413846105646bda02bf"
-    ),
-    .target(
-      name: "asyncify_wasmFFI",
-      path: "Sources/asyncify_wasmFFI",
-      publicHeadersPath: "."
+      url: "https://github.com/mahainc/flow-kit/releases/download/1.2.45-26.1.1-wasmkit/FlowKit.xcframework.zip",
+      checksum: "8fefaf25662f33319d4045d14d23dec79300037ca1af290e5b778e50c3ffe0d5"
     ),
     .target(
       name: "CModules",
