@@ -11,8 +11,8 @@ let package = Package(
   targets: [
     .binaryTarget(
       name: "FlowKit",
-      url: "https://github.com/mahainc/flow-kit/releases/download/1.2.34-26.1.1/FlowKit.xcframework.zip",
-      checksum: "666e1512c2f1191174588ad52a862d359a7fbf0b12f6b89e1a97dbe2e21a7719"
+      url: "https://github.com/mahainc/flow-kit/releases/download/1.2.35-26.1.1-wasmkit/FlowKit.xcframework.zip",
+      checksum: "5d038a1681673b071894d0e1b142b512f720ce1f2042db0df2b9b96e6ac6d56a"
     ),
     .target(
       name: "CModules",
