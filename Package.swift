@@ -11,8 +11,8 @@ let package = Package(
   targets: [
     .binaryTarget(
       name: "FlowKit",
-      url: "https://github.com/mahainc/flow-kit/releases/download/1.2.61-26.1.1-ffi/FlowKit.xcframework.zip",
-      checksum: "45126a84913444d62ff1a48dd8f6a181d58d8d7f6f3b7f764afcbc24d4c2f494"
+      url: "https://github.com/mahainc/flow-kit/releases/download/1.2.62-26.1.1-ffi/FlowKit.xcframework.zip",
+      checksum: "7fdca1818f4a1a954d426e68c66ed02a919be7de50c0fe7d179188523d8adfea"
     ),
     .target(
       name: "asyncify_wasmFFI",
